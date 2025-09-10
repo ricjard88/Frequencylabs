@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Frequency LABS</title>
+    <meta name="description" content="A laboratory of experiences that shift your daily frequency with small changes for big impact." />
+    <meta property="og:title" content="Frequency LABS" />
+    <meta property="og:description" content="A laboratory of experiences that shift your daily frequency with small changes for big impact." />
+                <meta property="og:type" content="website" />
+
+    <!-- Tailwind CSS (CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- OPTIONAL: Favicon (replace with your own) -->
+    <!-- <link rel="icon" href="/favicon.ico" /> -->
+
+    <!--
+      HOW TO USE
+      1) Replace the placeholder company cards in the <section id="companies"> with your real names, one‑line summaries, and URLs.
+      2) Commit this file as index.html to a GitHub repo.
+      3) Turn on GitHub Pages for the repo (Settings → Pages → Deploy from branch → main → /root).
+    -->
+  </head>
+  <body class="min-h-screen bg-gray-50 text-gray-900">
+    <!-- Header -->
+    <header class="border-b border-gray-200 bg-white">
+      <div class="mx-auto max-w-5xl px-4 py-6">
+        <div class="flex items-center justify-between gap-3">
+          <div class="flex items-center gap-3">
+            <div class="h-9 w-9 rounded-2xl bg-gray-900 text-white grid place-items-center text-sm font-semibold">FL</div>
+            <div>
+              <h1 class="text-xl font-semibold leading-tight">Frequency LABS</h1>
+              <p class="text-sm text-gray-600">Simple Value. Output Simply</p>
+            </div>
+          </div>
+          <!-- Optional contact link -->
+          <a href="mailto:hello@frequencyxlabs.com" class="text-sm font-medium text-gray-700 hover:text-gray-900">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="mx-auto max-w-5xl px-4 py-10">
+        <div class="rounded-2xl border border-gray-200 bg-white p-6 sm:p-8">
+          <h2 class="text-2xl font-semibold">Overview</h2>
+          <p class="mt-2 text-gray-700">We are Frequency Labs, a laboratory of experiences that focus on impacting the frequency of your day in the simplest ways for the largest impact.</p>
+        </div>
+      </section>
+
+      <!-- Companies Grid -->
+      <section id="companies" class="mx-auto max-w-5xl px-4 pb-14">
+        <div class="grid grid-cols-1 gap-5 sm:grid-cols-2">
+          <!-- COPY/PASTE this card block for more companies -->
+          <article class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
+            <h3 class="text-lg font-semibold">FrequenX</h3>
+            <p class="mt-2 text-gray-700">A morning call from outside the matrix. Live differently.</p>
+            <div class="mt-4">
+              <a href="https://frequenx.com" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-xl bg-gray-900 px-4 py-2 text-sm font-medium text-white hover:bg-black focus:outline-none focus:ring-2 focus:ring-gray-300">
+                Visit site <span aria-hidden>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
+            <h3 class="text-lg font-semibold">NextMove</h3>
+            <p class="mt-2 text-gray-700">Win the day. One move at a time.</p>
+            <div class="mt-4">
+              <a href="https://nexgroov.com" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-xl bg-gray-900 px-4 py-2 text-sm font-medium text-white hover:bg-black focus:outline-none focus:ring-2 focus:ring-gray-300">
+                Visit site <span aria-hidden>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
+            <h3 class="text-lg font-semibold">Palatune</h3>
+            <p class="mt-2 text-gray-700">Your taste, in the moment.</p>
+            <div class="mt-4">
+              <a href="https://palatune.com" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-xl bg-gray-900 px-4 py-2 text-sm font-medium text-white hover:bg-black focus:outline-none focus:ring-2 focus:ring-gray-300">
+                Visit site <span aria-hidden>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- End card block -->
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-gray-200 bg-white">
+      <div class="mx-auto max-w-5xl px-4 py-6 text-sm text-gray-600">
+        © <span id="year"></span> Frequency LABS. All rights reserved.
+      </div>
+    </footer>
+
+    <script>
+      // Current year in footer
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
